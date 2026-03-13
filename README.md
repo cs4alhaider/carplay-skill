@@ -34,7 +34,7 @@ The skill activates when you ask about:
 ### Claude Code
 
 ```bash
-claude skill install https://github.com/cs4alhaider/carplay-skill
+claude skill install https://github.com/cs4alhaider/carplay-skill/skills/carplay
 ```
 
 ### Manual
@@ -50,19 +50,21 @@ git clone https://github.com/cs4alhaider/carplay-skill.git
 
 ```
 carplay-skill/
-├── SKILL.md                              # Core skill file (overview + code examples)
 ├── README.md                             # This file
 ├── LICENSE                               # MIT License
 ├── .gitignore
-└── references/
-    ├── entitlements.md                   # Entitlement keys, provisioning, Xcode setup
-    ├── templates.md                      # All 12 CarPlay templates with code examples
-    ├── navigation.md                     # Navigation apps: maps, routing, HUD, clusters
-    ├── audio-and-communication.md        # Audio sessions, now playing, SiriKit, CallKit
-    ├── widgets-and-live-activities.md    # Widgets & Live Activities in CarPlay
-    ├── guidelines.md                     # Apple's complete per-category guidelines
-    ├── testing.md                        # Simulators, screen sizes, testing checklist
-    └── assets-and-notifications.md       # Image assets, notifications, CarPlay categories
+└── skills/
+    └── carplay/
+        ├── SKILL.md                          # Core skill file (overview + code examples)
+        └── references/
+            ├── entitlements.md               # Entitlement keys, provisioning, Xcode setup
+            ├── templates.md                  # All 12 CarPlay templates with code examples
+            ├── navigation.md                 # Navigation apps: maps, routing, HUD, clusters
+            ├── audio-and-communication.md    # Audio sessions, now playing, SiriKit, CallKit
+            ├── widgets-and-live-activities.md# Widgets & Live Activities in CarPlay
+            ├── guidelines.md                 # Apple's complete per-category guidelines
+            ├── testing.md                    # Simulators, screen sizes, testing checklist
+            └── assets-and-notifications.md   # Image assets, notifications, CarPlay categories
 ```
 
 ## Usage Examples
