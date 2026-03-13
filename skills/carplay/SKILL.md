@@ -9,7 +9,7 @@ description: >
   CPListTemplate, CPMapTemplate, CPGridTemplate, CPTabBarTemplate, CPNowPlayingTemplate,
   CPSearchTemplate, CPPointOfInterestTemplate, CPInterfaceController, CPNavigationSession,
   CarPlay Simulator, widgets or Live Activities in CarPlay, or CarPlay app submission.
-  Based on Apple's official CarPlay Developer Guide (February 2026).
+  Based on Apple's official CarPlay Developer Guide (Released in February 2026).
 license: MIT
 compatibility: Requires Xcode with iOS SDK. Designed for Claude Code or similar coding-assistant products.
 metadata:
