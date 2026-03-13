@@ -31,6 +31,12 @@ The skill activates when you ask about:
 
 ## Installation
 
+### [skills.sh](https://skills.sh)
+
+```bash
+npx skills add https://github.com/cs4alhaider/carplay-skill
+```
+
 ### Claude Code
 
 ```bash
